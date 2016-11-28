@@ -3,7 +3,10 @@
 namespace yidas\widgets;
 
 /**
- * DataTableInfo
+ * DataTableInfo Widget
+ *
+ * This widget cloud be used for showing Data Table information such as Total
+ * Count or Offset of rows, the data is based on Yii2 Pagination.
  *
  * @author 		Nick Tsai <myintaer@gmail.com>
  * @version 	1.0.0
@@ -32,6 +35,9 @@ class DataTableInfo extends Widget
      */
     public $language;
 
+    /**
+     * Widget init
+     */
     public function init()
     {
         parent::init();
