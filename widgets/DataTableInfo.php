@@ -66,7 +66,7 @@ class DataTableInfo extends Widget
     	$total = $p->totalCount;
 
     	// Force display
-        if ($total==0 && !$forceDisplay)
+        if ($total==0 && !$this->forceDisplay)
             return;
 
         // Start row at
