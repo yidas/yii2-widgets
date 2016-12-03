@@ -9,7 +9,7 @@ namespace yidas\widgets;
  * Count or Offset of rows, the data is based on Yii2 Pagination.
  *
  * @author 		Nick Tsai <myintaer@gmail.com>
- * @version 	1.0.0
+ * @version 	1.0.1
  * @example
  *  $pagination = new \yii\data\Pagination([]);
  *  echo \yidas\widgets\DataTableInfo::widget(['pagination' => $pagination]);
